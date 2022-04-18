@@ -1,0 +1,63 @@
+
+.main-content{
+  background-image: url("images/bg-curve-desktop.svg");
+  margin-top: 16rem;
+  .stay-productive{
+    
+    .text{
+      width: 29rem;
+      font-size: 0.9rem;
+      margin: 0;
+      padding: 1.2rem 0;
+    }
+    .no-padding{
+      padding-top: 0;
+      padding-bottom: 1.4rem;
+    }
+    .how-it-works{
+      display: inline-block;
+    }
+    .link-box{
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid $moderate-cyan-color;
+      margin-bottom: 2.4rem;
+      a {
+        text-decoration: none;
+        color: $moderate-cyan-color; 
+        padding-right: 0.5rem;
+      }
+      img {
+        height: 1.1rem;
+      }
+    }
+    .testimonials{
+      height: 2.3rem;
+      width: 21rem;
+      .testimonial{
+        display: flex;
+        flex-direction: column;
+        .quote-img {
+          display: block;
+          height: 3rem;
+          width: 3rem;
+          border-radius: 100%;
+      }
+      .testimonial-description{
+        display: flex;
+        flex-direction: column;
+
+      }
+      }
+      
+      
+    }
+  }
+
+  .productive-img-block{
+  .productive-img{
+    width: 100%;
+  }
+}
+
+}

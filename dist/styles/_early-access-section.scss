@@ -1,0 +1,42 @@
+.bg-color{
+  background-color: hsl(238, 22%, 44%);
+}
+
+.grid-access{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap:  8rem;
+}
+
+.free-signup{
+  .heading-tertiary{
+    color: $light-grayish-blue;
+    font-size: 1.6rem;
+  }
+  .text {
+    color: $light-gray;
+    font-size: 1.2rem;
+    margin: 1rem 0!important;
+  }
+  .signup{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+}
+
+.signup-input{
+  padding: 1.2rem 12rem;
+  margin-bottom: 0.8rem;
+  display: block;
+  border-radius: 3px;
+  border: none;
+}
+
+.submit{
+  padding: 1.2rem 6rem;
+  background-color: $bright-blue-color;
+  border: none;
+  color: $light-grayish-blue;
+}

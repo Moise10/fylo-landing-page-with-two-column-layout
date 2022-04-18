@@ -1,0 +1,53 @@
+.grid--4-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer{
+  background-color: hsl(243, 87%, 12%);
+  .contact-block{
+    .logo{
+      height: 3rem;
+      color: white;
+    }
+  }
+  .about-tags{
+    list-style: none;
+    .about-tag{
+      margin-bottom: 1.1rem;
+    }
+    .about-link{
+      color: hsl(0, 0%, 75%);
+      text-decoration: none;
+    }
+  }
+  .contact-tags {
+    list-style: none;
+    .contact-tag{
+      margin-bottom: 1.1rem;
+    }
+    .contact-link{
+      color: hsl(0, 0%, 75%);
+      text-decoration: none;
+    }
+  }
+  .companies-logos{
+    .companies-tags{
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 1.6rem;
+      .logo-link {
+        color: $light-grayish-blue;
+        .company-icon{
+          height: 2rem;
+          width: 2rem;
+          padding: 0.6rem;
+          border: 1px solid $light-grayish-blue;
+          border-radius: 100%;
+        }
+        
+      }
+    }
+  }
+}
